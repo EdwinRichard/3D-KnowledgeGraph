@@ -11,7 +11,7 @@ from knowledge_tree import KnowledgeTree3D
 # 初始化应用
 app = dash.Dash(
     __name__,
-    title="Frost全谱",
+    title="Willow全谱",
     external_stylesheets=[dbc.themes.FLATLY],
     suppress_callback_exceptions=True
 )
@@ -24,7 +24,7 @@ app.layout = dbc.Container([
     # 标题区
     dbc.Row([
         dbc.Col([
-            html.H1("🌐 Frost全景图谱", className="mt-4 mb-3 text-primary"),
+            html.H1("🌐 Willow全景图谱", className="mt-4 mb-3 text-primary"),
             html.P("窥一知万",
                    className="text-muted lead")
         ], width=12)
