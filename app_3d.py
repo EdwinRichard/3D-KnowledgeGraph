@@ -11,7 +11,7 @@ from knowledge_tree import KnowledgeTree3D
 # 初始化应用
 app = dash.Dash(
     __name__,
-    title="Willow全谱",
+    title="Willow全谱捏",
     external_stylesheets=[dbc.themes.FLATLY],
     suppress_callback_exceptions=True
 )
